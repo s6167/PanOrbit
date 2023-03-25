@@ -1,0 +1,14 @@
+.come-main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.come-main h3{
+    border-bottom: 1px solid rgb(120, 120, 120);
+    margin: 30px;
+}
+.come-main h1{
+    height: 60vh;
+    text-align: center;
+    
+}
