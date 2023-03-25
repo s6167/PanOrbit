@@ -9,7 +9,7 @@ const Profile = (props) => {
                     <h3 className='title'>Profile</h3>
                     <div className='content' > 
                         <div className='content1' >
-                            <img src={props.user.profilepicture} />
+                            <img alt='' src={props.user.profilepicture} />
                             <h3>{props.user.name}</h3>
                             <table>
                                 <tr>
@@ -81,7 +81,7 @@ const Profile = (props) => {
                                 </tr>
                             </table>
 {/* ------------------------------MAP View----------------------------------------------------------------------------------------------- */}
-                            <img src={map} />
+                            <img alt='' src={map} />
                             
                             
                             {/* <MapContainer center={[51.505, -0.09]} zoom={13} style={{ height: '400px' }}>

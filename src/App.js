@@ -39,7 +39,7 @@ function App() {
       <div   >     
           {!isLogin && 
           <div className='All-users' >
-            {data.users.map((item)=><p onClick={()=>handleClick(item)}  key={item.id} ><img src={item.profilepicture} />{item.name}</p>)}
+            {data.users.map((item)=><p onClick={()=>handleClick(item)}  key={item.id} ><img alt='' src={item.profilepicture} />{item.name}</p>)}
           </div>}
       </div>
           {isLogin && <Userdata  user={userLogin} />}
